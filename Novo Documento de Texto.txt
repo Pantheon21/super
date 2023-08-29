@@ -1,0 +1,104 @@
+altura1 = float(input('Digite sua altura: '))
+altura2 = float(input('Digite sua altura: '))
+altura3 = float(input('Digite sua altura: '))
+altura4 = float(input('Digite sua altura: '))
+altura5 = float(input('Digite sua altura: '))
+altura6 = float(input('Digite sua altura: '))
+altura7 = float(input('Digite sua altura: '))
+altura8 = float(input('Digite sua altura: '))
+altura9 = float(input('Digite sua altura: '))
+altura10 = float(input('Digite sua altura: '))
+altura11 = float(input('Digite sua altura: '))
+altura12 = float(input('Digite sua altura: '))
+altura13 = float(input('Digite sua altura: '))
+altura14 = float(input('Digite sua altura: '))
+altura15 = float(input('Digite sua altura: '))
+i = 0
+homens = 0
+mulheres = 0
+while i <= 14:
+ genero = int(input("Informe seu genero, homem = 1, mulher =2: "))
+ 
+ if genero == 1:
+    homens += 1
+ else:
+   mulheres += 1
+ i += 1
+
+if mulheres > 1:
+ print("Entraram", mulheres ,"mulheres")
+elif mulheres == 1:
+  print("Entrou uma mulher")
+else:
+   print("Não entraram mulheres")
+
+def maior(altura1, altura2, altura3, altura4, altura5, altura6, altura7, altura8, altura9, altura10, altura11, altura12, altura13, altura14, altura15):
+    max = altura1
+
+    if altura2 > max:
+        max = altura2
+    if altura3 > max:
+        max = altura3
+    if altura4 > max:
+        max = altura4
+    if altura5 > max:
+        max = altura5
+    if altura6 > max:
+        max = altura6
+    if altura7 > max:
+        max = altura7
+    if altura8 > max:
+        max = altura8
+    if altura9 > max:
+        max = altura9
+    if altura10 > max:
+        max = altura10
+    if altura11 > max:
+        max = altura11
+    if altura12 > max:
+        max = altura12
+    if altura13 > max:
+        max = altura13
+    if altura14 > max:
+        max = altura14
+    if altura15 > max:
+        max = altura15
+
+    return max   
+
+def menor(altura1, altura2, altura3, altura4, altura5, altura6, altura7, altura8, altura9, altura10, altura11, altura12, altura13, altura14, altura15):
+    min = altura1
+
+    if altura2 < min:
+        min = altura2
+    if altura3 < min:
+        min = altura3
+    if altura4 < min:
+        min = altura4
+    if altura5 < min:
+        min = altura5
+    if altura6 < min:
+        min = altura6
+    if altura7 < min:
+        min = altura7
+    if altura8 < min:
+        min = altura8
+    if altura9 < min:
+        min = altura9
+    if altura10 < min:
+        min = altura10
+    if altura11 < min:
+        min = altura11
+    if altura12 < min:
+        min = altura12
+    if altura13 < min:
+        min = altura13
+    if altura14 < min:
+        min = altura14
+    if altura15 < min:
+        min = altura15
+
+    return min    
+print("o maior tem: ", maior(altura1, altura2, altura3, altura4, altura5, altura6, altura7, altura8, altura9, altura10, altura11, altura12, altura13, altura14, altura15))
+print("O menor tem: ", menor(altura1, altura2, altura3, altura4, altura5, altura6, altura7, altura8, altura9, altura10, altura11, altura12, altura13, altura14, altura15))
+print("A média de altura é:", (altura1 + altura2 + altura3 + altura4 + altura5 + altura6 + altura7 + altura8 + altura9 + altura10 + altura11 + altura12 + altura13 + altura14 + altura15)/15)
